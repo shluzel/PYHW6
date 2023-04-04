@@ -11,7 +11,7 @@ def GetValueByUser(Num):
 def GetProgression(FE, D, NE):
     arr = list()
     for i in range(NE):
-        an = FE + ( i - 1 ) * D
+        an = FE + ( i - 1 + 1 ) * D
         arr.append(an)
     return arr
 FirstElement = int(GetValueByUser('Введите первый элемент прогрессии: '))
